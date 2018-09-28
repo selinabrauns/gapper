@@ -1,6 +1,6 @@
 
 const initialState = {
-  
+  test: 'bla'
 };
 
 const commonReducer = (state = initialState, action) => {

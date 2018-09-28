@@ -1,0 +1,25 @@
+@import "../variables.scss";
+
+.home {
+  height: $content-height;
+
+  .panel {
+    width: 33.3%;
+    height: 100%;
+    float: left;
+
+    &.groups {
+      width: calc(33.3% - 2px);
+      border-left: 1px solid lightgray;
+      border-right: 1px solid lightgray;
+    }
+
+    .add {
+      i {
+        font-size: 30px;
+        color: darkslategray;
+      }
+    }
+
+  }
+}

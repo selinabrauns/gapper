@@ -17,7 +17,7 @@ module.exports = {
     extensions: ['.js', '.jsx', '.scss' ]
   },
   watch: false,
-  entry: './client/index.js',
+  entry: ['babel-polyfill', './client/index.js'],
   output: {
     path: path.join(__dirname, 'client/dist/'),
     filename: 'bundle.js',

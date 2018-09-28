@@ -21,11 +21,15 @@
   },
   "homepage": "https://github.com/selinabrauns/gapper#readme",
   "devDependencies": {
+    "axios": "^0.18.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
     "css-loader": "^0.28.11",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.4.0",
@@ -33,6 +37,7 @@
     "nodemon-webpack-plugin": "^4.0.3",
     "react-redux": "^5.0.7",
     "redux-actions": "^2.4.0",
+    "redux-saga": "^0.16.0",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
     "webpack": "^4.12.0",
@@ -40,7 +45,6 @@
     "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
-    "axios": "^0.18.0",
     "babel-cli": "^6.26.0",
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
@@ -51,6 +55,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-router-dom": "^4.3.1",
-    "redux": "^4.0.0"
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
   }
 }
